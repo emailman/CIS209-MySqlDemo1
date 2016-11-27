@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             if (dbCon.IsConnect())
             {
                 // If successful, try to read records from a table and display them
-                string query = "SELECT * FROM StudentsX";
+                string query = "SELECT * FROM Students";
                 var cmd = new MySqlCommand(query, dbCon.Connection);
 
                 try

@@ -43,7 +43,7 @@ namespace ConsoleApplication1
                     // Strings with connection information
                     string serverName = "phpmyadmin.cdgwdgkn5fuv.us-west-2.rds.amazonaws.com";
                     string uidName = "csc164db_ron";
-                    string passwordName = "ra0965";
+                    string passwordName = "xxx";
 
                     // Build the connection string
                     string connstring = string.Format
